@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int car_age;
-    cout << "Hur gammal är din bil? ";
+    cout << "Hur gammal är din bil (jätte gammal) ? ";
     cin >> car_age;
 
     if (car_age <= 5) {
