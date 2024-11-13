@@ -1,20 +1,26 @@
 #include <iostream> // Include the iostream library for input and output operations
 using namespace std;
+
 int main() {
-    YamlParser parser("example.yaml"); // Create a YamlParser object and load the YAML file
+    //Skapa parseobjekt och läs in filen
+    YamlParser parser("file.yml");
 
-    // Extract values from the YAML file
-    string name = parser.getString("name"); // Get the string value for the key "name"
-    int age = parser.getInt("age"); // Get the integer value for the key "age"
-    vector<string> hobbies = parser.getStringList("hobbies"); // Get the list of strings for the key "items"
+    // Hämta data
+    std::string name = parser.getString("name");
+    std::string age = parser.getString("age");
+    bool isMarried = parser.getBool("isMarried");
+    bool hasCar = parser.getBool("hasCar");
+    std::vector<std::string> items = parser.getList("items");
 
-    // Print the extracted values
-    cout << "Name: " << name << endl; // Print the name
-    cout << "Age: " << age << endl; // Print the age
-    cout << "Hobbies: " << endl; // Print the items header
-    for (const auto& hobby : hobbies) { // Loop through each item in the list
-        cout << "- " << hobby << endl; // Print each item
+    // Skriv ut värden
+    std::cout << "Name: " << name << std::endl;
+    std::cout << "Age: " << age << std::endl;
+    std::cout << "Is married: " <<std::boolalpha<< isMarried << std::endl;
+    std::cout << name <<" has a car: " <<std::boolalpha<< hasCar << std::endl;
+    std::cout << "Items:" << std::endl;
+    for (const auto& item : items) {
+        std::cout << "- " << item << std::endl;
     }
 
-    return 0; // Return 0 to indicate successful execution
+    return 0;
 }
