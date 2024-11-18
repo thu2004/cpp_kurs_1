@@ -112,3 +112,7 @@ Run the game for linux. using WSL (Windows machine)
         * If **Enter** is pressed:
             * If the selected cell is empty, break out of the input loop.
             * If the selected cell is not empty, prompt the player to choose another cell.
+
+Here is example how to get the Arrow work in Linux / WSL
+
+https://github.com/thu2004/cpp_kurs_1/blob/main/arrow_test.cpp
