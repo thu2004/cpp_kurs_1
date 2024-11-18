@@ -18,10 +18,9 @@ Here is the pseudocode for the Tic-Tac-Toe game:
         2. **Handle Player Input**:
             * Display whose turn it is.
             * Wait for player input:
-                * If user enter x and y cordinate (for example: 1 2)
+                * If user enter number 1-9 
                     * If the selected cell is empty, break out of the input loop.
                     * If the selected cell is not empty, prompt the player to choose another cell.
-                * If user enter 9 9 (nice space nice enter) exit the game
                     
         3. **Place Player Mark**:
             * Set the current player's mark ('X' or 'O') in the selected cell.
