@@ -1,6 +1,6 @@
 ## 1. Create a Tic-Tac-Toe game run in a console
 
-Here is the pseudocode for the Tic-Tac-Toe game with arrow key navigation:
+Here is the pseudocode for the Tic-Tac-Toe game:
 
 1. **Initialize Game State**:
     
