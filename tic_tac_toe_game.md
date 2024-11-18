@@ -98,7 +98,7 @@ Player O, enter your move (1-9): 1
 
 ## 2. Refactory the game using Object Oriented Programming.
 
-Create Game and Board class and define the attributes and methods
+Create Game and Board class and define the attributes and methods. Rewrite the main function.
 
 ## 3. Extent the game to handle player input with arrow keys. 
 
