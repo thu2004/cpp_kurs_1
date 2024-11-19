@@ -7,14 +7,14 @@ Here is the pseudocode for the Tic-Tac-Toe game:
     * Create a 3x3 board filled with empty spaces.
     * Define two players, 'X' and 'O'.
     * Set the initial player turn to 0.
-    * Set the initial cursor position to the top-left corner of the board (0, 0).
+    * Set the initial cursor position to the top-left corner of the board (0, 0). (This is for exercise 3)
 2. **Game Loop**:
     
     * Repeat the following steps until the game ends:
         1. **Print Board**:
             * Clear the console.
             * Loop through each cell of the board and print its value.
-            * Highlight the current cursor position.
+            * Highlight the current cursor position. (This is for exercise 3)
         2. **Handle Player Input**:
             * Display whose turn it is.
             * Wait for player input:
