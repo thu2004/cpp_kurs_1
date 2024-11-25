@@ -11,7 +11,7 @@ Skapa ett program som hanterar en enkel betygskalkylator för studenter:
   - Visa all studentinformation
 - Skapa ett huvudprogram som skapar minst två Student-objekt och demonstrerar all funktionalitet
 
-### Fråga 2
+### Fråga 1
 Skriv ett program som läser in tal från användaren tills de matar in -1. Programmet ska:
 - Lagra talen i en vektor
 - Beräkna och visa:
