@@ -1,5 +1,5 @@
 
-Instruktioner: Du får använda din lärobok, anteckningar och onlinedokumentation (men inte AI-verktyg eller kodkomplettering).
+Instruktioner: Du får använda din lärobok, anteckningar och onlinedokumentation (men inte AI-verktyg).
 
 ## Del 1: Grundnivå
 ### Fråga 1
@@ -70,6 +70,7 @@ Skapa en mallbaserad datastruktur som implementerar en enkel Kö med följande k
 1. Varje svar ska vara i en separat .cpp-fil med lämpligt namn
 2. Inkludera kommentarer som förklarar din kod
 3. Alla program måste kompilera utan fel
+4. Skapar en git repo och ladda upp lösningar.
 
 ## Obs:
 - Alla program måste innehålla lämpliga headers
