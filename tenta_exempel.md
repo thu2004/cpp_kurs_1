@@ -59,7 +59,7 @@ Skapa en mallbaserad datastruktur som implementerar en enkel Kö med följande k
   - isEmpty
   - size
 - Inkludera lämplig felhantering för tomma kö-operationer
-- Skapa ett omfattande testprogram som:
+- Skapa ett omfattande testprogram i form av gtest som:
   - Testar kön med minst två olika datatyper
   - Demonstrerar all funktionalitet
   - Inkluderar kantfall
